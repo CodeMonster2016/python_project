@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MAPFEATURES>
+	<WAY type="navigable_ways" description="Navigable Roads and Ferries">
+		<TAGS>
+			<TAG key="fc" value="*" logic=""/>
+		</TAGS>
+	</WAY>
+	<WAY type="carto_ways" description="Cartographic Features">
+		<TAGS>
+			<TAG key="type" value="carto_line" logic=""/>
+		</TAGS>
+	</WAY>		
+	<NODE type="city_center" description="City Center">
+		<TAGS>
+			<TAG key="type" value="city_center" logic=""/>
+		</TAGS>		
+	</NODE>
+	<NODE type="zip_center" description="Zip Center">
+		<TAGS>
+			<TAG key="type" value="zip_center" logic=""/>
+		</TAGS>		
+	</NODE>	
+	<NODE type="toll_both" description="Toll Booth Structure Feature">
+		<TAGS>
+			<TAG key="barrier" value="toll_booth" logic=""/>			
+		</TAGS>		
+	</NODE>		
+	<NODE type="gate" description="Gate Feature">
+		<TAGS>
+			<TAG key="barrier" value="gate" logic=""/>			
+		</TAGS>		
+	</NODE>	
+	<RELATION type="various_relations" description="Various Conditional-type Relations">
+		<TAGS>
+			<TAG key="type" value="3d_landmark" logic="or"/>
+			<TAG key="type" value="adas:maxspeed" logic="or"/>			
+			<TAG key="type" value="adas_node" logic="or"/>		
+			<TAG key="type" value="barrier" logic="or"/>		
+			<TAG key="type" value="bifurcation" logic="or"/>		
+			<TAG key="type" value="blackspot" logic="or"/>		
+			<TAG key="type" value="construction" logic="or"/>		
+			<TAG key="type" value="divided_junction" logic="or"/>		
+			<TAG key="type" value="gjv" logic="or"/>		
+			<TAG key="type" value="go_straight" logic="or"/>		
+			<TAG key="type" value="grade_separation" logic="or"/>		
+			<TAG key="type" value="junction_view" logic="or"/>		
+			<TAG key="type" value="lane_connectivity" logic="or"/>		
+			<TAG key="type" value="multipolygon" logic="or"/>		
+			<TAG key="type" value="natural_guidance" logic="or"/>		
+			<TAG key="type" value="oneway" logic="or"/>		
+			<TAG key="type" value="restriction" logic="or"/>		
+			<TAG key="type" value="safety_camera" logic="or"/>		
+			<TAG key="type" value="signpost" logic="or"/>		
+			<TAG key="type" value="traffic_sign" logic="or"/>		
+			<TAG key="type" value="traffic_signals" logic="or"/>		
+			<TAG key="type" value="truck_maxspeed" logic="or"/>
+			<TAG key="type" value="virtual_connection" logic="or"/>
+		</TAGS>	
+	</RELATION>
+</MAPFEATURES>

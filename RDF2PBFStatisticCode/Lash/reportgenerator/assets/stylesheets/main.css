@@ -1,0 +1,165 @@
+/**
+ * @license regression report css v1.0.0 (2013-03-05)
+ * 
+ * (c) 2012 Qianfei Ding
+ *
+ * License: None
+ */
+body {
+    background-color: #FCFCFC;
+    color: #555555;
+    font-family: Verdana,Myriad,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 18px 0 0;
+}
+
+.header h1.title {
+    border-bottom: 1px solid;
+    display: block;
+    font-size: 30px;
+    padding: 10px 2px 20px;
+    text-align: center;
+    text-shadow: 0 0 60px #000000;
+}
+
+.layout {
+    margin: 0 auto;
+    padding: 20px 2px 2px 10px;
+    width: 80%;
+}
+
+.footer {
+    margin-bottom: 20px;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+span.nav_path {
+     border-bottom: 1px solid #CCCCCC;
+    color: #6A6A6A;
+    cursor: pointer;
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    display:block;
+}
+
+span.nav_path a {
+    color: #1F92FF;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0 0 0 transparent;
+}
+
+table.index_list{
+    table-layout: fixed;
+    word-break: break-all;
+    overflow: hidden;
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: middle;
+}
+
+table.index_list tr{
+    background: none repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+}
+
+table.index_list tr.even{
+    background: none repeat scroll 0 0 #f0f0f0;
+}
+
+table.index_list tr.odd{
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+table.index_list tr:hover {
+    background: none repeat-x scroll 50% 50% #DADADA;
+    border: 1px solid #999999;
+    color: #212121;
+    font-weight: normal;
+}
+
+table.index_list tr.fail{
+    background-color: #F57573;
+}
+
+table.index_list tr.pass{
+    background-color: #C0D78E;
+}
+
+table.index_list tr.unavailable{
+    background-color: #cccccc;
+}
+
+table.index_list th{
+    border-right-color: inherit;
+    border-right-style: solid;
+    border-right-width: 1px;
+
+    border-bottom-color: inherit;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #E6E6E6;
+    color: #555555;
+    font-weight: normal;
+    height: 22px;
+    padding: 0 2px;
+}
+
+table.index_list td{
+    border-right-color: inherit;
+    border-right-style: solid;
+    border-right-width: 1px;
+
+    border-bottom-color: inherit;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-align: left;
+
+    height: 22px;
+    overflow: hidden;
+    padding: 0 2px;
+    white-space: normal;
+
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: normal;
+
+    margin: 0;
+    outline: 0 none;
+    vertical-align: middle;
+}
